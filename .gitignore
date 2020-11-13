@@ -1,0 +1,8 @@
+/flash/
+__pycache__/
+.env
+.venv
+env/
+venv/
+ENV/
+.idea/
