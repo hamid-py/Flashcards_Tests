@@ -253,7 +253,7 @@ class FlashCardTest(StageTest):
         out_list.pop(0)
         result, a, b = self.check_sub_menu('\n'.join(out_list))
         if result == 1 or result == 2:
-            return CheckResult.wrong('there is something wrong with submenu')
+            return CheckResult.wrong('there is something wrong with sub_menu')
         if result == 3:
             return 'Rome'
 
@@ -264,7 +264,7 @@ class FlashCardTest(StageTest):
         out_list.pop(0)
         result, a, b = self.check_sub_menu('\n'.join(out_list))
         if result == 1 or result == 2:
-            return CheckResult.wrong('there is something wrong with submenu')
+            return CheckResult.wrong('there is something wrong with sub_menu')
         if result == 3:
             return CheckResult.correct()
 
