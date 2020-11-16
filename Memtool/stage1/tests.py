@@ -294,4 +294,4 @@ class FlashCardTest(StageTest):
 
 
 if __name__ == '__main__':
-    FlashCardTest('flashcards.step1').run_tests()
+    FlashCardTest('memtool.step1').run_tests()
